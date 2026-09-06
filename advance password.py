@@ -1,11 +1,17 @@
+print("welcome to login page...")
+print("sign up using mobile number ")
+x=int(input("enter mobile number : "))
+y=input("password : ")
+print("signup successfully...")
+print("sign in")
 ps=""
 at=0
-n=input("Enter your login_id : ")
-if n=="xyz@cutm.ac.in":
- while ps!="cutm" and at<3:
+n=int(input("Enter your login_id : "))
+if n==x:
+ while ps!= y and at<3:
     ps=input("Enter password : ")
     at+=1
-    if ps=="cutm":
+    if ps==y:
         print("..."*10)
         print("login successfully. ")
         print("..."*10)
